@@ -22,6 +22,7 @@ void StartScene::update()
 {
 	updateDisplayList();
 	SDL_SetRenderDrawColor(Renderer::Instance()->getRenderer(), 255, 200, 255, 255);
+	//wahoo
 }
 
 void StartScene::clean()
